@@ -1,0 +1,133 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+/* Add the following style to prevent scrolling on the entire page */
+html, body {
+overflow: hidden;
+height: 100%;
+}
+.forecast-container {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: rgb(108, 207, 246);
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 600px; /* Set a fixed height */
+overflow: hidden; /* Hide the overflow content */
+}
+
+.day {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.horizontal-days {
+    display: flex;
+    justify-content: space-between;
+}
+/* Add the following style to allow scrolling within the forecast container */
+.forecast-container .horizontal-days {
+overflow-x: auto;
+white-space: nowrap;
+
+}
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+h2 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.temperature {
+    font-size: 18px;
+    color: #666;
+}
+
+.condition {
+    color: #444;
+}
+/* .date-time {
+    font-size: 14px;
+    color: #888;
+} */
+
+
+.container{
+padding: 20px 70px;
+color:black;
+}
+
+.current-info{
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+.date-container{
+/* font-weight: 100; */
+text-align: right; /* Align the text to the right */
+flex-grow: 1; /* Allow the date-container to grow and take up the remaining space */
+}
+.date-container .time{
+font-size: 25px;
+margin-right: 20px; /* Add some right margin for spacing */
+}
+
+.date-container #am-pm{
+font-size: 25px;
+margin-left: 20px;
+}
+
+.date-container .date{
+font-size: 25px;
+
+}
+
+.place-container{
+text-align: end;
+}
+
+.place-container .time-zone{
+font-size: 30px;
+font-weight: 100;
+}
+
+.place-container .country{
+font-size: 12px;
+font-weight: 700;
+}
+
+.current-info .others{
+display: flex;
+flex-direction: column;
+background: rgba(24,24,27, 0.6);
+padding:20px;
+border-radius: 10px;
+margin: 10px 0;
+border: 1px solid #eee;
+}
+
+.current-info .others .weather-item{
+display: flex;
+justify-content: space-between;
+}
+
+.weather-icon {
+display: block;
+margin: 0 auto; /* Center the image horizontally */
+}
+
+
+
+
+
+
+
