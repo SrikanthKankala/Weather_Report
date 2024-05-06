@@ -1,9 +1,4 @@
 # Weather_Report
-Name: Srikanth Kankala.
-Internship ID: CTFSW52 .
-Internship Domain: Full Stack Web Developer.
-Internship Duration : 1st May to 1st August 2024. 
-Mentor: Sravani Gouni.
 
 Descritpion:
 HTML Structure (index.html)
